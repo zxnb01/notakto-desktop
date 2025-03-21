@@ -28,7 +28,9 @@ function App() {
         </a>
       </div>
       <p>Click on the Tauri, Vite, and React logos to learn more.</p>
-
+      <h1 className="text-3xl font-bold underline">
+    Hello world!
+  </h1>
       <form
         className="row"
         onSubmit={(e) => {
