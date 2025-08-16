@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import { LiveProps } from '../services/types';
 
-const SERVER_URL = "https://deciduous-incongruous-herring.glitch.me";
+const SERVER_URL = "https://notakto-websocket.onrender.com";
 const socket = io(SERVER_URL);
 
 const LiveMode = ({ onClose }: LiveProps) => {
