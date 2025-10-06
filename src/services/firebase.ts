@@ -34,8 +34,6 @@ const provider = new GoogleAuthProvider();
 // Google Sign-In
 // -------------------
 export const signInWithGoogle = async (): Promise<User | void> => {
-  window.alert('Not supported');
-  return;
   try {
     const result = await signInWithPopup(auth, provider);
     return result.user;
